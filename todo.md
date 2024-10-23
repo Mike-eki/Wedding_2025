@@ -4,6 +4,10 @@
 - Official logo
 - Serve Images on Mega service
 - Typografy headings and paragraphs [x]
-- Color pallete
+- Color pallete cloth (no white and beige)
+- Cloth code
 - Gallery images animation or carrousel
-- 
+- QR to upload images and photographs
+- Calendar
+- Background music
+- Spotify component to add music to a list
