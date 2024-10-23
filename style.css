@@ -79,6 +79,12 @@ ul, ol {
     padding: 0;
 }
 
+img {
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
 .menu-guide {
     display: flex;
     justify-content: space-around;
@@ -87,6 +93,22 @@ ul, ol {
 .menu-guide ul {
     display: flex;
     gap: 1rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.hero-imgs {
+  display: flex;
+  gap: 1rem;
+}
+.hero-imgs img {
+  width: 250px;
+  border-radius: 50% 50% 0 0;
+  aspect-ratio: 9 / 11;
+  object-fit: cover;
 }
 
 .countdown {
