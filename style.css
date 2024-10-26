@@ -78,6 +78,7 @@ ul, ol {
     list-style: none;
     padding: 0;
 }
+
 img {
   max-width: 100%;
   width: 100%;
@@ -93,20 +94,23 @@ img {
     display: flex;
     gap: 1rem;
 }
-#hero {
+
+.hero {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding-block: 1rem;
-  gap: 0.6rem;
+  align-items: center;
 }
-#hero img {
-  width: 150px;
-  margin: auto;
-  border-radius: 50%;
-  aspect-ratio: 1 / 1;
+.hero-imgs {
+  display: flex;
+  gap: 1rem;
+}
+.hero-imgs img {
+  width: 250px;
+  border-radius: 50% 50% 0 0;
+  aspect-ratio: 9 / 11;
   object-fit: cover;
 }
+
 .countdown {
   display: inline-flex;
   background-color: var(--clr-lgreen);
