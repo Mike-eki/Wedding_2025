@@ -1,6 +1,6 @@
 // Countdown Timer
 function countDownTimer() {
-    let weddingTime = new Date("20 May, 2025 00:00:00").getTime()
+    let weddingTime = new Date("19 Apr, 2025 12:00:00").getTime()
     let timer = setInterval(() => {
         let now = new Date().getTime()
         let distance = weddingTime - now
