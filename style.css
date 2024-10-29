@@ -64,9 +64,9 @@ body {
     color: var(--clr-dterracot);
     max-width: 700px;
     margin-inline: auto;
-    background-image: url('img/wallpaper_puung_3.png');
-    /* background-repeat: no-repeat; */
-    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('img/wallpaper_puung.png');
 }
 
 main {
@@ -151,6 +151,8 @@ figure {
   transform: translate(-50%, -100%);
   font-size: 3rem;
   color: rgb(248, 224, 215);
+  text-shadow: 1px 0 rgba(123, 79, 47, 0.3), -2px 0 rgba(123, 79, 47, 0.3), 0 1px rgba(123, 79, 47, 0.3), 0 -2px rgba(123, 79, 47, 0.3),
+               1px 1px rgba(123, 79, 47, 0.3), -1px -1px rgba(123, 79, 47, 0.3), 1px -1px rgba(123, 79, 47, 0.3), -1px 1px rgba(123, 79, 47, 0.3);
   /* background-color: var(--clr-dgreen) */
 }
 
@@ -216,7 +218,7 @@ figure {
 }
 .context-date div {
   display: flex;
-  gap: 4rem;
+  gap: 2.75rem;
 }
 .context-date-day {
   font-size: 1.75rem;
@@ -271,11 +273,23 @@ figure {
 #info .park {
   margin-bottom: 1.5rem;
 }
+#info #menu-food {
+  margin-bottom: 1.75rem;
+}
 #cloth-code figure {
   display: flex;
 }
 #info #cloth-code {
   margin-bottom: 1.75rem;
+}
+#info #music {
+  margin-bottom: 2.25rem;
+}
+#info #whatsapp {
+  margin-bottom: 2rem;
+}
+#info #pay {
+  margin-bottom: 2rem;
 }
 #info #donation {
   margin-bottom: 2rem;
