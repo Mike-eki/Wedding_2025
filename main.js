@@ -25,4 +25,21 @@ function countDownTimer() {
     }, 1000) 
 }
 
+async function copy(id){
+    let element = document.getElementById(id)
+    // Ask for user to have permission to copy
+    navigator.permissions.query({ name: "write-on-clipboard" }).then((result) => {
+        if (result.state == "granted" || result.state == "prompt") {
+          alert("Write access granted!");
+        }
+      });
+    // Copy process API
+    try {
+        await navigator.clipboard.writeText(element.textContent)
+        alert('¡Texto copiado!')
+    } catch(error) {
+        alert('No se pudo copiar', error)
+    }
+}
+
 countDownTimer()

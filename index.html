@@ -10,20 +10,25 @@
     <title>M&E</title>
 </head>
 <body>
-    <nav class="menu-guide">
-        <span class="logo">M&E</span>
-        <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#cloth-code">Vestimenta</a></li>
-        </ul>
-    </nav>
+    <header class="top">
+        <nav class="menu-guide">
+            <span class="logo">M&E</span>
+            <ul>
+                <li><a class="button-55" role="button" href="#">Link 1</a></li>
+                <li><a class="button-55" role="button" href="#">Link 2</a></li>
+                <li><a class="button-55" role="button" href="#">Link 3</a></li>
+                <li><a class="button-55" role="button" href="#">Link 4</a></li>
+                <li><a class="button-55" role="button" href="#cloth-code">Vestimenta</a></li>
+            </ul>
+        </nav>
+        <img src="img/mask.png" alt=""  
+            style="transform: rotate(180deg) translateY(25%);">
+    </header>
+    <article class="page">
     <main class="hero">
-        <strong>¡Hemos dicho que SI!</strong>
-        <h1>Mique & Eva</h1>
-        <picture class="hero-imgs">
+        <strong class="fade-in-top">¡Hemos dicho que SI!</strong>
+        <h1 class="fade-in-top">Mique & Eva</h1>
+        <picture class="hero-imgs flip-in-hor-bottom">
             <div class="hero-img-date">
                 <img src="img/drive-m/DSC_0080-2.jpg" alt="">
                 <span>19</span>
@@ -37,7 +42,7 @@
                 <span>25</span>
             </div>
         </picture>
-        <aside class="countdown">
+        <aside class="countdown heartbeat">
             <div class="count-container">
                 <p id="days">00</p>
                 <span>Días</span>
@@ -76,36 +81,36 @@
             <ul>
                 <li>
                     <p>Recepción</p>
-                    <em>-13:00h-</em>
+                    <em>-12:00h-</em>
                 </li>
                 <li>
                     <p>Ceremonia</p>
-                    <em>-13:30h-</em>
+                    <em>-12:30h-</em>
                 </li>
                 <li>
                     <p>Finalización</p>
-                    <em>-19:00h-</em>
+                    <em>-18:00h-</em>
                 </li>
             </ul>
         </aside>
         <aside class="place">
             <img class="icon mappin" src="icon/mappin.svg" alt="mappin icon">
             <h2>Ubicación</h2>
-            <p>Av. del Limite, Ibarlucea, Santa Fe</p>
-            <p>Colectivos que llegan: <strong>102R y 153</strong></p>
-            <a href="https://maps.app.goo.gl/r8RZEYimFUQt6V9h7" target="_blank">Ver mapa</a>
+            <p><em>Av. del Limite, Ibarlucea, Santa Fe</em></p>
+            <p>Colectivos que llegan: <strong><em>102R y 153</em></strong></p>
+            <a class="button-55" role="button" href="https://maps.app.goo.gl/r8RZEYimFUQt6V9h7" target="_blank">Ver mapa</a>
         </aside>
         <aside class="park">
             <img class="icon parking" src="icon/parking.svg" alt="parking icon">
             <h2>Estacionamiento</h2>
-            <p>Hay estacionamiento disponible para autos y motos</p>
+            <p>Ya sea que viajes en auto o en moto, <strong>encontrarás un lugar para estacionarte</strong>, ya que hay espacio suficiente para ambos</p>
         </aside>
         <aside id="menu-food">
             <img class="icon menu-food" src="icon/menu-food.svg" alt="menu-food icon">
             <h2>Menú de comida</h2>
-            <p>Fiambre</p>
-            <p>Costillar</p>
-            <p>Torta</p>
+            <p>Durante la recepción serán agasajados con unos exquisitos panes de campo caseros y empandas, una espectacular tabla de fiambres y una barra de tragos.</p>
+            <p>La entrada serán unos chorizos con papas rusticas riquísimas. Continuamos con el mejor costillar y vacío a la estaca con diversidad de ensaladas, seguido de postre helado. Para finalizar una pizzas épicas y champagne.</p>
+            <p><strong>Por favor comunícate con alguno de los novios si tienes alguna restricción alimenticia, alergia o  condición que no te permita consumir ciertos productos</strong>, así podremos estar en contacto con el catering del salón y así podrás disfrutar de un excelente menú acorde a tus necesidades.</p>
         </aside>
         <aside id="cloth-code">
             <figure>
@@ -113,39 +118,41 @@
                 <img class="icon dresscode-women" src="icon/dresscode-women.svg" alt="dresscode-women icon">
             </figure>
             <h2>Código vestimenta</h2>
-            <p>Deseamos que...</p>
-            <p><strong>No Veige ni Blanco</strong></p>
+            <p>Nuestra boda se realizara durante el día en otoño, podes escoger un oufit lindo y formal inspirándote en esta hermosa temporada con tantos colores.</p>
+            <p><strong>Ten en cuenta dejar el color blanco, beige o similares para la novia en este gran día.</strong></p>
         </aside>
         <aside id="music">
             <img class="icon music" src="icon/music.svg" alt="music icon">
-            <h2>¡Que no falte musica!</h2>
-            <p>Agrega el tema que no debe faltar para el evento en esta lista de Spotify:</p>
-            <p><a href="https://open.spotify.com/playlist/6KugRUp0t0urz0VeGPeXkQ?si=9immtGtJRDyTAmPf1dxp1g">Agregar canción a la lista</a></p>
+            <h2>¡Que no falte buena musica!</h2>
+            <p>Agrega el tema que no puede faltar en el evento en esta lista de <strong>Spotify</strong>:</p>
+            <p><a class="button-55" role="button" href="https://open.spotify.com/playlist/6KugRUp0t0urz0VeGPeXkQ?si=9immtGtJRDyTAmPf1dxp1g">Agrega una canción</a></p>
         </aside>
         <aside id="whatsapp">
             <img class="icon whatsapp" src="icon/whatsapp.svg" alt="whatsapp icon">
             <h2>Confirmanos tu asistencia</h2>
-            <p>Escribinos a través de nuestro número de WhatsApp:</p>
-            <p><a href="#">WhatsApp Novio</a></p>
-            <p><a href="#">WhatsApp Novia</a></p>
+            <p>Llena el <strong>formulario</strong> y escribinos a través de nuestro número de <strong>WhatsApp</strong>:</p>
+            <p><a class="button-55" role="button" href="#">Formulario</a></p>
+            <p><a class="button-55" role="button" href="#">WhatsApp Novio</a></p>
+            <p><a class="button-55" role="button" href="#">WhatsApp Novia</a></p>
         </aside>
         <aside id="pay">
             <img class="icon pay" src="icon/pay.svg" alt="pay icon">
             <h2>¿Cómo pagar la tarjeta?</h2>
             <p>Efectivo, o transferencia a:</p>
-            <p><strong>Alias: tarjetamye2025</strong></p>
+            <p><strong>Alias: <em id="alias-tarjeta" >tarjetamye2025</em><button onclick="copy('alias-tarjeta')">Copiar</button></strong></p>
         </aside>
         <aside id="donation">
             <img class="icon gift" src="icon/gift.svg" alt="gift icon">
             <h2>¿Quieres regalarnos algo?</h2>
             <p>Puedes transferirnos a a esta cuenta:</p>
-            <p><strong>Alias: bodamiqueyeva2025</strong></p>
+            <p><strong><em id="alias-regalos">Alias: bodamiqueyeva2025</em></strong><button onclick="copy('alias-regalos')">Copiar</button></p>
             <p>¡Cualquier otro regalo que nos quieras dar en lugar de dinero, es mas que bienvenido!</p>
         </aside>
     </section>
     <section id="history">
         <h2>Nuestra historia</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure voluptatem velit nostrum, eligendi eos reiciendis perferendis totam, laudantium est qui, sed nesciunt ipsa quos. Fuga delectus a voluptates doloremque assumenda.
+        <p>Nuestra hermosa historia fue escrita y sellada en el corazón de Dios.
+            Nuestros  caminos se entrelazaron por primera vez en una reunión en nuestra iglesia el 16 de Junio de 2018, desde aquel entonces comenzó la amistad mas linda, nuestro cariño fue creciendo a lo largo de los años, superando muchos obstáculos. Conocimos la belleza de Jesús en el corazón del otro  y descubriendo la perfecta voluntad de Dios para nosotros. Hemos dicho que Si, al plan de Dios como familia y estamos tan felices de que seas parte de esto.
         </p>
     </section>
     <section id="galery">
@@ -167,6 +174,7 @@
         <h2>20.05.2025</h2>
     </footer>
 
+    </article>
     <script src="main.js"></script>
 </body>
 </html>
