@@ -282,9 +282,11 @@ figure {
 }
 .context p, .context strong {
   display: block;
-  max-width: 40ch;
   margin-inline: auto;
   text-align: center;
+}
+.context strong {
+  max-width: 40ch;
 }
 .context-date {
   margin-inline: auto;
