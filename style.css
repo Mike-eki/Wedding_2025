@@ -106,7 +106,7 @@ body {
     color: var(--clr-dterracot);
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('img/wallpaper_puung.png');
+    background-image: url('img/wallpaper_puung_compress.png');
 }
 
 .page {
